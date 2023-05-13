@@ -1,0 +1,159 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("Gaming-0_generated.jpg");
+	background-size: cover;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  form {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 8 8'%3E%3Cpath fill='%23333' d='M.223 2.223c-.197.196-.197.515 0 .712l3.279 3.279c.196.196.515.196.712 0l3.279-3.279c.196-.196.196-.515 0-.712L4.214.223c-.197-.197-.515-.197-.712 0L.223 2.223z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 8px 8px;
+  }
+  
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: centre;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
+  
+  input[type="submit"]:active {
+	background-color: #3e8e41;
+	transform: translateY(1px);
+  }
+  
+  nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #f8f8f8;
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+  }
+  nav h1 {
+	margin: 0;
+	font-size: 24px;
+  }
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  nav li {
+	margin-left: 20px;
+	color:green;
+  }
+  nav a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+  }
+  nav a:hover {
+	color: #555;
+  }
+  .title {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 100px;
+  }
+  nav {
+	  display: flex;
+	  justify-content: flex-end;
+	  align-items: center;
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  background-color: grey;
+	  height: 50px;
+	  width: 100%;
+	  padding: 0 20px;
+	  box-sizing: border-box;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	  z-index: 1;
+	}
+	nav h1 {
+	  margin: 0;
+	  font-size: 24px;
+	}
+	nav ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	  display: flex;
+	}
+	nav li {
+	  margin-left: 20px;
+	}
+	nav a {
+	  text-decoration: none;
+	  color: #333;
+	  font-weight: bold;
+	}
+	nav a:hover {
+	  color: #555;
+	}
+	.title {
+	  text-align: center;
+	  font-size: 36px;
+	  margin-top: 100px;
+	}
+	#a1,#a2{
+	  color: black;
+	}
+  

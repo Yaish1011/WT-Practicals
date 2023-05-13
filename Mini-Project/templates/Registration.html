@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaming Tournament Registration</title>
+    <link rel="stylesheet" href="\static\css\style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+		  <li><a id="a1" href="/chart">Statistics</a></li>
+		  <li><a id="a2" href="/faq">FAQs</a></li>
+		  <li><a id="a2" href="/data">Entries</a></li>
+	  </ul>
+	</nav>
+	<h1>Gaming Tournament Registration</h1>
+	<form  name="myForm" method="POST" action="/Submit" >
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="game">Game:</label>
+		<select id="game" name="game">
+			<option value="Fortnite">Fortnite</option>
+			<option value="Minecraft">Minecraft</option>
+			<option value="League of Legends">League of Legends</option>
+			<option value="Valorant">Valorant</option>
+			<option value="Overwatch">Overwatch</option>
+			<option value="CS:GO">CS:GO</option>
+			<option value="Dota 2">Dota 2</option>
+			<option value="Apex Legends">Apex Legends</option>
+		</select><br><br>
+		
+		<label for="username">Gaming Username:</label>
+		<input type="text" id="username" name="username" required><br><br>
+		
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required><br><br>
+		
+		<label for="country">Country:</label>
+		<input type="text" id="country" name="country" required><br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+	
+</body>
+</html>
